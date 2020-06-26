@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="books.xsl" ?>
+<livre xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./books.xsd">
+   <description>
+      <titre> La vie est un roman</titre>
+      <auteurs>
+         <nom> Musso</nom>
+         <prenom>Guillaume </prenom>
+      </auteurs> 
+      <image   xlink:type="simple" xlink:href="https://www.guillaumemusso.com/sites/default/files/images/livres/couv/9782702165546-001-T.jpeg" >   
+      </image>   
+      <Paragraphe>
+            POUR LUI, TOUT EST ÉCRIT D'AVANCE
+               POUR ELLE TOUT RESTE À ÉCRIRE
+            « Un jour d’avril, ma fille de trois ans, Carrie, a disparu alors que nous jouions toutes les deux à cache-cache dans mon appartement de Brooklyn. »
+            Au même moment, de l’autre côté de l’Atlantique, un écrivain au cœur broyé se terre dans une maison délabrée.
+            Lui seul détient la clé du mystère. 
+      </Paragraphe>
+   </description>
+   <information>
+      <Language> Français</Language>
+      <Genre>Fiction &amp; Literature </Genre>
+      <Publisher> Calmann-Lévy </Publisher>
+      <Pages> 304 </Pages>
+   </information>
+   <chapitres>
+      <chapitre titre="Cachée">
+         <paragraphes>
+            <paragraphe> 
+            Brooklyn, automne 2010
+            Il y a six mois, le 12 avril 2010, ma fille de trois ans, Carrie Conway, m’a été enlevée alors que nous jouions toutes les deux à cache-cache dans mon appartement de Williamsburg.
+            C’était un bel après-midi, clair et ensoleillé, comme New York en offre beaucoup au printemps. Fidèle à mes habitudes, j’étais allée à pied chercher Carrie à son école, la Montessori School de McCarren Park. 
+            Sur le chemin du retour, nous nous étions arrêtées chez Marcello’s pour acheter une compote et un cannoli au citron que Carrie avait dévorés tout en gambadant gaiement à côté de sa poussette.
+            </paragraphe>
+            <paragraphe> 
+            À notre arrivée chez nous, dans le lobby du Lancaster Building, au numéro 396 de Berry Street, notre nouveau gardien, Trevor Fuller Jones – 
+            il avait été embauché moins de trois semaines auparavant –, a donné à Carrie une sucette au miel et au sésame en lui faisant promettre de ne pas la manger tout de suite. 
+            Puis il lui a dit combien elle était chanceuse d’avoir une maman romancière, car elle devait lui raconter de belles histoires le soir dans son lit. 
+            Je lui ai fait remarquer en riant que, pour dire une chose pareille, il n’avait dû ouvrir aucun de mes romans, ce dont il a convenu. 
+            </paragraphe>
+         </paragraphes>
+      </chapitre>
+   </chapitres> 
+</livre>
