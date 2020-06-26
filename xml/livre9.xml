@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="books.xsl" ?>
+<livre xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./books.xsd">
+   <description>
+      <titre> Les cicatrices </titre>
+      <auteurs>
+         <nom>Favan</nom>
+         <prenom>Claire </prenom>
+      </auteurs> 
+      <image   xlink:type="simple" xlink:href="https://images-eu.ssl-images-amazon.com/images/I/51lW6azZiKL._SX195_.jpg" >   
+      </image>   
+      <Paragraphe>
+            Un polar original et addictif.  » Le Parisien
+            «  Machiavélique.  » Femme Actuelle
+            «  Une romancière à suivre de près.  » CNEWS
+
+      </Paragraphe>
+   </description>
+   <information>
+      <Language> Français</Language>
+      <Genre>Crime &amp; Thrillers</Genre>
+      <Publisher> HarpercCollins </Publisher>
+      <Pages> 368 </Pages>
+   </information>
+   <chapitres>
+      <chapitre titre="">
+         <paragraphes>
+            <paragraphe> 
+            Elle cligne des yeux plusieurs fois et porte la main gauche à son front. Un raclement suivi d’un tintement lui vrille le cerveau. Elle a la bouche pâteuse, sans compter ce putain de mal de crâne qui la fait grogner de douleur. Elle se sent aussi désorientée qu’un lendemain de cuite.
+            Elle sait que c’est pitoyable de se réveiller chez quelqu’un dont elle ne se rappelle plus le prénom et d’avoir oublié les événements qui l’ont conduite jusque chez lui, pourtant ce n’est pas la première fois qu’elle échoue ainsi dans le lit d’un inconnu après une soirée bien arrosée, et ça ne sera pas la dernière.    
+            </paragraphe>
+            <paragraphe> 
+            Il est sans doute temps de s’éclipser discrètement, avant que la scène devienne gênante. Elle tente de se redresser en poussant un gémissement. Son corps fait de la résistance. La vache ! Qu’est-ce qu’elle a foutu hier ? Elle a mal partout.
+            Entre ses doigts qui massent ses tempes, elle observe le décor, et son cœur manque un battement. Son cerveau se remet instantanément à fonctionner. En mode panique.
+            </paragraphe>
+         </paragraphes>
+      </chapitre>
+   </chapitres> 
+</livre>
