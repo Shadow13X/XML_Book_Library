@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="books.xsl" ?>
+<livre xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./books.xsd">
+   <description>
+      <titre> Celle qui pleurait sousl'eau</titre>
+      <auteurs>
+         <nom>Tackian</nom>
+         <prenom>Niko</prenom>
+      </auteurs> 
+      <image   xlink:type="simple" xlink:href="https://www.babelio.com/couv/CVT_Celle-qui-pleurait-sous-leau_1993.jpg" >   
+      </image>   
+      <Paragraphe>
+          SI CLARA N’AVAIT PAS AIMÉ CET HOMME, ELLE SERAIT TOUJOURS EN VIE.
+      </Paragraphe>
+   </description>
+   <information>
+      <Language>Français </Language>
+      <Genre>Crime &amp; Thrillers </Genre>
+      <Publisher>  Editions de l'épée</Publisher>
+      <Pages> 270 </Pages>
+   </information>
+   <chapitres>
+      <chapitre titre="Chapitre 1">
+         <paragraphes>
+            <paragraphe> 
+            La nuit était chaude et aussi étouffante qu’un four. Mais Laurence et Sacha s’en foutaient bien. Ils avaient tout juste dix-sept ans, des rêves plein le crâne et l’envie de s’envoyer en l’air. 
+            Un pote du lycée leur avait parlé d’une fenêtre qu’il suffisait de faire coulisser pour pénétrer dans la forteresse en briques rouges surplombant la butte. De toute façon l’alarme ne marchait plus depuis bien longtemps et, à cette heure tardive, ils ne risquaient certainement pas de croiser qui que ce soit. 
+            Après être entrés dans le bâtiment, ils se déshabillèrent sur le bord du bassin et commencèrent à se bécoter dans l’obscurité. Puis Laurence se décida à plonger dans l’eau tiède et son mec ne traîna pas pour la rejoindre. Ils pouvaient deviner un vaste espace autour d’eux et une forme étrange qui se balançait dans les airs, mais ce n’étaient que des ombres imprécises à peine éclairées par la lueur jaunâtre des quelques loupiotes de sécurité. À ce moment précis, rien n’importait plus que leur désir. 
+            Il la colla contre son corps pour qu’elle puisse bien sentir à quel point il avait envie d’elle, mais elle s’échappa en gloussant pour faire la course. C’est là que tout dérapa. Elle hurla d’abord de surprise, puis de dégoût et enfin son cri se transforma en une terreur primale. 
+            Quelque chose flottait avec eux dans l’eau. C’était poisseux, c’était liquide, le visage de Laurence en était recouvert. Sacha eut le courage de se rapprocher, courage bien vite disparu au contact d’une chair froide et molle. Alors le désir s’évanouit comme la lumière d’une bougie soufflée par le vent et il eut une violente envie de vomir en tentant de rejoindre le bord. Et pendant qu’ils fuyaient la piscine en pleurant, le sang continua de se répandre dans l’eau du bassin, goutte après goutte…
+            </paragraphe>
+            <paragraphe> 
+            Comme tous les dimanches matin depuis quinze jours, José s’était dépêché d’attraper le bus de la ligne 75 pour rejoindre son arrêt en bordure du parc des Buttes-Chaumont. 
+            La piscine ouvrait à 7 heures, mais il lui fallait une bonne demi-heure pour faire son tour d’inspection. Ce mois de juillet parisien atteignait des chaleurs caniculaires et il appréciait particulièrement cette petite balade à la fraîche sur un bitume pas encore chauffé à blanc. 
+            Et puis ça lui permettait de réfléchir et de classer ses idées… concernant Mathilde notamment. Ils étaient mariés depuis dix ans et élevaient deux beaux enfants, mais quelque chose clochait dans l’édifice de leur famille idéale. Quelque chose de bien pourri dont il devrait s’occuper, un jour, quand il aurait le courage d’affronter la réalité. 
+            Après avoir remonté le long des grilles du parc, José avait bifurqué sur la gauche pour rejoindre la rue Jean-Ménans, puis sur la droite pour longer le vaste bâtiment en briques rouge vif qui abritait la piscine Pailleron. Il travaillait là 
+            </paragraphe>
+         </paragraphes>
+      </chapitre>
+   </chapitres> 
+</livre>

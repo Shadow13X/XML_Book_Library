@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="books.xsl" ?>
+<livre xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./books.xsd">
+   <description>
+      <titre> Psychologie des Foules</titre>
+      <auteurs>
+         <nom>Le Bon</nom>
+         <prenom>Gustave</prenom>
+      </auteurs> 
+      <image   xlink:type="simple" xlink:href="https://kbimages1-a.akamaihd.net/f44b7a65-31da-4596-823b-521a92dd9250/353/569/90/False/psychologie-des-foules-22.jpg" >   
+      </image>   
+      <Paragraphe>
+          Écrit en 1895 par Gustave Le Bon (1841-1931), La psychologie des foules est un monument dans le domaine de la psychologie et reste une référence, un socle incontournable, 
+          pour toute personne souhaitant comprendre ou "ressentir" l'âme des foules.
+      </Paragraphe>
+   </description>
+   <information>
+      <Language> Français</Language>
+      <Genre>Psychologie</Genre>
+      <Publisher> Public Domain </Publisher>
+      <Pages> 209 </Pages>
+   </information>
+   <chapitres>
+      <chapitre titre="Introduction">
+         <paragraphes>
+            <paragraphe> 
+            Évolution de l'âge actuel.—Les grands changements de civilisation sont la conséquence de changements dans la pensée des peuples.—La croyance moderne à la puissance des foules.
+            —Elle transforme la politique traditionnelle des États.—Comment se produit l'avènement des classes populaires et comment s'exerce leur puissance.
+            —Conséquences nécessaires de la puissance des foules.—Elles ne peuvent exercer qu'un rôle destructeur.—C'est par elles que s'achève la dissolution des civilisations devenues trop vieilles.—Ignorance générale de la psychologie des foules.
+            —Importance de l'étude des foules pour les législateurs et les hommes d'État.
+            </paragraphe>
+            <paragraphe>
+            Les grands bouleversements qui précèdent les changements de civilisations, tels que la chute de l'Empire romain et la fondation de l'Empire arabe par exemple semblent, au premier abord, déterminés surtout par des transformations politiques considérables: invasions de peuples ou renversements de dynasties. 
+            Mais une étude plus attentive de ces événements montre que, derrière leurs causes apparentes, se trouve le plus souvent, comme cause réelle, une modification profonde dans les idées des peuples. Les véritables bouleversements historiques ne sont pas ceux qui nous étonnent par leur grandeur et leur violence. 
+            </paragraphe>
+         </paragraphes>
+      </chapitre>
+   </chapitres> 
+</livre>

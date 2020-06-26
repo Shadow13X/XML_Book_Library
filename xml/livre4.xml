@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="books.xsl" ?>
+<livre xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./books.xsd">
+   <description>
+      <titre> Quelqu'un de Bien </titre>
+      <auteurs>
+         <nom>Bourdine</nom>
+         <prenom>Françoise</prenom>
+      </auteurs> 
+      <image   xlink:type="simple" xlink:href="https://www.lisez.com/includes/ajax_imatges.php?id=9782714481375" >   
+      </image>   
+      <Paragraphe>
+          Faire face à l’adversité et se prouver qu’on est quelqu’un de bien.
+      </Paragraphe>
+   </description>
+   <information>
+      <Language> Français</Language>
+      <Genre>Fiction &amp; Literature </Genre>
+      <Publisher> Belfond </Publisher>
+      <Pages> 198 </Pages>
+   </information>
+   <chapitres>
+      <chapitre titre="CHAPITRE 1">
+         <paragraphes>
+            <paragraphe> 
+            — Si quelqu’un peut vous conduire à la pharmacie de garde, à Cavaillon, je préférerais que vous commenciez votre traitement sans attendre.
+            Caroline signa l’ordonnance qu’elle relut d’un coup d’œil avant de la tendre à son patient, un vieux monsieur qu’elle suivait régulièrement pour de multiples pathologies. Cependant, au-delà de ses problèmes de santé, il venait aussi chercher auprès de son médecin une oreille attentive et quelques mots d’encouragement. 
+            Caroline était-elle encore capable de les lui offrir ? Fatiguée par une interminable journée de travail, elle se leva néanmoins pour le raccompagner jusqu’à la porte donnant sur la ruelle. On pouvait ainsi quitter son cabinet sans repasser par le secrétariat ou la salle d’attente, et ne pas montrer ses larmes quand on venait d’apprendre une mauvaise nouvelle.
+            — Prenez soin de vous, dit-elle en lui serrant la main.
+            </paragraphe>
+            <paragraphe> 
+            Elle n’utilisait jamais l’expression « Bon courage », une formule qu’elle jugeait trop angoissante. Puis elle gagna l’entrée où se tenait Diane, sa sœur, encore installée derrière son petit bureau.
+            — Dis-moi qu’il n’y a plus personne…, s’enquit-elle d’un ton plein d’espoir.
+            — Non, c’est fini, je viens de verrouiller.
+            Diane ajouta, désignant la pendule accrochée en évidence sur l’un des murs :
+            — À cette heure-ci, je considère que ta journée est terminée. Et je peux t’annoncer que tu as assuré quarante-neuf consultations !
+            Ce qui n’était même pas un record. Caroline lâcha un soupir de soulagement et alla éteindre la lumière dans la salle d’attente où des magazines s’éparpillaient sur toutes les chaises. 
+            Chaque matin, à sept heures, la femme de ménage venait mettre de l’ordre, aérait, lavait les sols, et le cabinet médical 
+            </paragraphe>
+         </paragraphes>
+      </chapitre>
+   </chapitres> 
+</livre>
