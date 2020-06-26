@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="books.xsl" ?>
+<livre xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./books.xsd">
+   <description>
+      <titre> Nuit sombre et sacrée </titre>
+      <auteurs>
+         <nom>Connelly</nom>
+         <prenom>Micheal</prenom>
+      </auteurs> 
+      <image   xlink:type="simple" xlink:href="https://images-eu.ssl-images-amazon.com/images/I/41A8OVKanIL._SX195_.jpg" >   
+      </image>   
+      <Paragraphe>
+          «Spectaculaire. Nuit sombre et sacrée est un roman haletant et très, très sombre.»
+          Washington Post
+      </Paragraphe>
+   </description>
+   <information>
+      <Language> Français</Language>
+      <Genre>Crime &amp;  Thriller </Genre>
+      <Publisher>  Calmann-Lévy </Publisher>
+      <Pages> 432 </Pages>
+   </information>
+   <chapitres>
+      <chapitre titre="Chapitre 1">
+         <paragraphes>
+            <paragraphe> 
+            Les officiers de la patrouille avaient laissé la porte d’entrée ouverte. Ils croyaient lui avoir rendu service en aérant, mais cela constituait une violation du protocole de conservation des éléments de preuve de la scène de crime. 
+            Des insectes auraient pu y aller et venir et de l’ADN de contact être altéré par une brise traversant la maison. Les odeurs étant de la matière particulaire, aérer une scène de crime, c’était en perdre des éléments.
+            Mais les officiers de la patrouille ne savaient pas tout ça. Le rapport que Ballard avait reçu du lieutenant de veille disait que le corps se trouvait depuis deux ou trois jours dans une bâtisse fermée avec climatisation arrêtée. 
+            À le citer, l’endroit puait aussi fort qu’un plein sac de mouffettes.
+            </paragraphe>
+            <paragraphe> 
+            Là, devant elle, deux véhicules de patrouille stationnaient le long du trottoir. Trois hommes en bleu se tenaient debout à côté et l’attendaient. Ballard ne pensait pas vraiment qu’ils seraient restés à l’intérieur avec le corps.
+            Cent mètres au-dessus dans les airs, un hélico décrivait des cercles, projecteur braqué sur la rue. 
+            On aurait dit une laisse de lumière retenant l’appareil pour l’empêcher de disparaître au loin.
+            Ballard coupa le moteur, mais resta un instant assise dans son véhicule de fonction. 
+            Elle s’était garée devant un espace entre deux maisons et regarda la ville qui se répandait en un vaste tapis scintillant sous ses yeux. 
+            Peu de gens se rendent compte qu’Hollywood Boulevard se perd haut dans les montagnes et, étroit et resserré, dessert alors un quartier strictement résidentiel, bien loin du mélange de clinquant et de crasse de La Mecque touristique qu’il est tout en bas, où les visiteurs posent avec des clodos en costume de super-héros et sur des étoiles gravées dans le trottoir. 
+            Dans ses hauteurs, tout n’est qu’argent et pouvoir, et elle savait qu’un meurtre dans ces collines faisait toujours sortir les grands pontes. Elle ne faisait, elle, que du « baby-sitting » et ne garderait cette affaire que peu de temps. Celle-ci terminerait aux Homicides du West Bureau, voire à la division des Vols et Homicides du centre-ville, tout dépendant de l’identité de la victime et de son statut social.
+            </paragraphe>
+         </paragraphes>
+      </chapitre>
+   </chapitres> 
+</livre>
