@@ -2,7 +2,57 @@
   <span>XML Book Library</span>
   <mat-form-field class="form-field" appearance="outline">
     <mat-label>Search a book</mat-label>
-    <input matInput placeholder="Madness and Civilization" />
+    <input
+      matInput
+      placeholder="Madness and Civilization"
+      (input)="searchBooks($event.target.value)"
+    />
     <mat-icon matSuffix>search</mat-icon>
   </mat-form-field>
 </mat-toolbar>
+
+<div *ngIf="!isSearchBoxEmpty" class="title">Search Result</div>
+<mat-divider></mat-divider>
+<div *ngIf="isSearchBoxEmpty && !isSearching" class="svg-container">
+  <img class="svg" src="assets/books.svg" alt="" />
+  <div class="title1">Search a book</div>
+</div>
+<div
+  *ngIf="!(isSearchBoxEmpty || isSearching) && isNotFound"
+  class="svg-container"
+>
+  <img class="svg" src="assets/information.svg" alt="" />
+  <div class="title1">Oupps, Not Found</div>
+</div>
+<div class="container">
+  <mat-spinner style="margin-top: 200px;" *ngIf="isSearching"></mat-spinner>
+</div>
+<ng-container *ngIf="!(isSearchBoxEmpty || isNotFound) && !isSearching">
+  <!-- <li *ngFor="let book of books">
+    {{ book.files }}
+  </li> -->
+  <div class="container">
+    <mat-card class="card">
+      <mat-card-header>
+        <mat-card-title>Shiba Inu</mat-card-title>
+        <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+      </mat-card-header>
+      <img
+        mat-card-image
+        src="https://material.angular.io/assets/img/examples/shiba2.jpg"
+        alt="Photo of a Shiba Inu"
+      />
+      <mat-card-content>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur,
+          autem.
+        </p>
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-button>
+          READ
+        </button>
+      </mat-card-actions>
+    </mat-card>
+  </div></ng-container
+>

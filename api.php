@@ -50,4 +50,4 @@ foreach ($dirIter as $fileinfo) { // Iterate over the XML files in the xml forld
   }
 }
 
-print(json_encode(["files" => transformArr($files)]));
+print(json_encode(array(["files" => transformArr($files)])));
