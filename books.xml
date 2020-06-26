@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="books.xsl" ?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./books.xsd">
+    <books> 
+        <book>
+            <title>Ghost in the wires</title>
+            <publish_date>2011</publish_date>
+            <authors>
+                <author name="Kevin MITNICK" />
+                <author name="Willial L.SIMON" />
+            </authors>
+            <file>
+                "books/GhostInTheWires.xml"
+            </file>
+        </book>
+        <book>
+            <title>The Art of Deception</title>
+            <publish_date>2001</publish_date>
+            <authors>
+                <author name="Kevin MITNICK" />
+                <author name="Willial L.SIMON" />
+            </authors>
+            <file>
+                "books/TheArtOfDeception.xml"
+            </file>
+        </book>
+        <book>
+                <title>The Art of Deception</title>
+                <publish_date>2001</publish_date>
+                <authors>
+                    <author name="Kevin MITNICK" />
+                    <author name="Willial L.SIMON" />
+                </authors>
+                <file>
+                    "books/TheArtOfDeception.xml"
+                </file>
+            </book>
+    </books>
+</root>
