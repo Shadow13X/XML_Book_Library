@@ -2,9 +2,12 @@
   <span>XML Book Library</span>
   <mat-form-field class="form-field" appearance="outline">
     <mat-label>Search a book</mat-label>
+    <input type="text" style="display: none;" />
     <input
       matInput
+      autocomplete="off"
       placeholder="Madness and Civilization"
+      [(ngModel)]="input"
       (input)="searchBooks($event.target.value)"
     />
     <mat-icon matSuffix>search</mat-icon>
