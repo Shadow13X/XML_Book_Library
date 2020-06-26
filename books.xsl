@@ -16,7 +16,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
                 <nav class="navbar navbar-default">
                     <div class="container-fluid" style="justify-content:space-between">
                         <div class="navbar-header">
-                        <a class="navbar-brand" href="#">WebSiteName</a>
+                        <a class="navbar-brand" href="#">BookShelf</a>
                         </div>
                         <div class="input-group">
                             <input type="text" class="form-control" placeholder="Search"/>
