@@ -11,14 +11,14 @@
 .mat-form-field-wrapper {
   padding-bottom: 0 !important;
 }
-.svg-container{
+.svg-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 3em;
 }
-.svg{
+.svg {
   display: inline-block;
   width: 300px;
   margin: auto;
@@ -26,6 +26,20 @@
 .card {
   max-width: 275px;
   margin: 1em;
+}
+.img-container {
+  position: relative !important;
+  width: 100% !important;
+  height: 245px !important;
+  overflow: hidden !important;
+  margin-bottom: 20px;
+}
+.img {
+  position: absolute !important;
+  top: 0 !important;
+  left: -9999px !important;
+  right: -9999px !important;
+  margin: auto !important;
 }
 .container {
   display: flex;

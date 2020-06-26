@@ -2,7 +2,8 @@ import { Component, ViewEncapsulation } from '@angular/core';
 import { Subject } from 'rxjs';
 import { debounceTime, distinctUntilChanged, switchMap } from 'rxjs/operators';
 import { SearchService } from './search.service';
-
+import { Book } from './book';
+import { DomSanitizer } from '@angular/platform-browser';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -18,11 +19,17 @@ export class AppComponent {
   readonly books$ = this.querySub.pipe(
     debounceTime(250),
     distinctUntilChanged(),
-    switchMap((query) => this.searchService.fetchBooks(query))
+    switchMap((query: string) => this.searchService.fetchBooks(query))
   );
 
-  constructor(private searchService: SearchService) {}
+  constructor(
+    private searchService: SearchService,
+    private sanitization: DomSanitizer
+  ) {}
 
+  sanitize(str: string) {
+    return this.sanitization.bypassSecurityTrustUrl(str);
+  }
   searchBooks(query: string) {
     this.isSearching = true;
     if (query === '') {
@@ -30,7 +37,7 @@ export class AppComponent {
     } else {
       this.isSearchBoxEmpty = false;
     }
-    this.books$.subscribe((resp: Array<any>) => {
+    this.books$.subscribe((resp: Array<Book>) => {
       if (resp.length > 0) {
         this.isNotFound = false;
       } else {

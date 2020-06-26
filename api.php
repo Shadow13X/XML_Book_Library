@@ -7,7 +7,7 @@ header('Content-Type: application/json');
 $queryArr = explode(" ", $_GET["query"]); // Split GET query by space
 $xmlDirPath = dirname(__FILE__) . "\\xml\\"; // Path for xml folder
 $dirIter = new DirectoryIterator($xmlDirPath); // Initialize directory iterator 
-$files = []; // Stores names of XML files that matches the query.
+$books = []; // Stores XML book data
 
 function contains($str, array $arr) // Returns the number of $arr strings contained in $str
 {
@@ -23,15 +23,12 @@ function transformArr(array $arr)
   $n = sizeof($arr);
   for ($i = 1; $i < $n; $i++) { // Sort the array by number of matched words
     for ($j = $n - 1; $j >= $i; $j--) {
-      if (explode("|", $arr[$j - 1])[1] > explode("|", $arr[$j])[1]) {
+      if ($arr[$j - 1]["matches"] > $arr[$j]["matches"]) {
         $tmp = $arr[$j - 1];
         $arr[$j - 1] = $arr[$j];
         $arr[$j] = $tmp;
       }
     }
-  }
-  for ($i = 1; $i < $n; $i++) { // Remove the number of matched words in the sorted array
-    $arr[$i] = explode("|", $arr[$j - 1])[0];
   }
   return $arr;
 }
@@ -41,13 +38,27 @@ foreach ($dirIter as $fileinfo) { // Iterate over the XML files in the xml forld
     $file = $xmlDirPath . $fileinfo->getFilename(); // File name
     $xmlDoc = new DOMDocument(); // Initialize a DOMDocument object
     $xmlDoc->load($file); // Load the current XML file
-    $elementsByTagName = $xmlDoc->getElementsByTagName('title'); // Get the nodes with tag name "title"
-    $value = $elementsByTagName->item(0)->nodeValue; // By definition there is a single "title" element in each xml file
-    $j = contains($value, $queryArr); // Match the words in the query with the content of "title" element
+    // Get the nodes values
+    $title = $xmlDoc->getElementsByTagName('titre')->item(0)->nodeValue;
+    $lname = $xmlDoc->getElementsByTagName('nom')->item(0)->nodeValue;
+    $fname = $xmlDoc->getElementsByTagName('prenom')->item(0)->nodeValue;
+    foreach ($xmlDoc->getElementsByTagName('image') as $imageNode) {
+      $image = $imageNode->getAttribute("xlink:href");
+    }
+    $desc = $xmlDoc->getElementsByTagName('paragraphe')->item(0)->nodeValue;
+    $path = "XML_Book_Library/xml/" . $fileinfo->getFilename();
+    $j = contains($title, $queryArr); // Match the words in the query with the content of "title" element
     if ($j > 0) { // If some words match continue
-      $files[] = $file . "|" . $j; // Store the file and number of matches seprated by a pipe
+      $books[] = [
+        "title" => $title,
+        "author" => $fname . $lname,
+        "image" => $image,
+        "desc" => $desc,
+        "path" => $path,
+        "matches" => $j
+      ]; // Store the file and number of matches seprated by a pipe
     }
   }
 }
 
-print(json_encode(array(["files" => transformArr($files)])));
+print(json_encode($books));
