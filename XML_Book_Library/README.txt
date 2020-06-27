@@ -5,14 +5,14 @@ Team: ( Génie informatique )
 
 #-------------------------------------------
 
+## Instructions:
+-Put the XML_Book_Library folder in the root folder of the PHP Server ( in www for example ) 
+-Navigate to http://localhost/XML_Book_Library
+
 ## Technologies/Languages:
 -XML/XSL/XSD
 -Angular (Typescript/JS/RxJS/SCSS/HTMl) 
 -Vanilla PHP
-
-## Instructions:
--Put the XML_Book_Library folder in the root folder of the PHP Server ( in www for example ) 
--Navigate to http://localhost/XML_Book_Library
 
 ## Other information:
 -Search bar uses real-time search with RxJS.
