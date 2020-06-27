@@ -33,8 +33,10 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
                 text-align:center;
                 font-size: 40px !important;
                 font-weight: 800 !important;
-            "> <xsl:apply-templates select="description"/></h1>
+            ">
+            <xsl:apply-templates select="description"/></h1>
             <h3> <xsl:apply-templates select="description/auteurs/auteur"/></h3>
+            <h3> <xsl:apply-templates select="information"/></h3>
             <xsl:apply-templates select="chapitres"/>
             </div>
         </body>
@@ -44,6 +46,9 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     </xsl:template>
     <xsl:template match="description">
         <xsl:value-of select="titre" />
+    </xsl:template>
+    <xsl:template match="information">
+        Langue : <xsl:value-of select="Language" /> &#160; - &#160; Genre : <xsl:value-of select="Genre" /> &#160; - &#160; Editeur : <xsl:value-of select="Publisher" /><br/><xsl:value-of select="Pages" /> pages
     </xsl:template>
     <xsl:template match="description/auteurs/auteur">
         <xsl:value-of select="concat(prenom,' ',nom)" />
