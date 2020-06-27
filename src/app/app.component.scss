@@ -24,8 +24,11 @@
   margin: auto;
 }
 .card {
-  max-width: 275px;
+  max-width: 300px;
   margin: 1em;
+}
+.mat-card-content{
+  height: 75px;
 }
 .img-container {
   position: relative !important;

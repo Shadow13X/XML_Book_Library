@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="books.xsl" ?>
 <livre xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./books.xsd">
    <description>
-      <titre> </titre>
+      <titre>Le coucou des couscous </titre>
       <auteurs><auteur>
          <nom>Agnès </nom>
          <prenom>Martin-Lugand</prenom>

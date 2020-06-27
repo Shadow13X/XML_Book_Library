@@ -6,7 +6,7 @@
     <input
       matInput
       autocomplete="off"
-      placeholder="Madness and Civilization"
+      placeholder="Les Cicatrices"
       [(ngModel)]="input"
       (input)="searchBooks($event.target.value)"
     />
@@ -33,27 +33,25 @@
 <div class="container">
   <ng-container *ngIf="books$ | async as books">
     <ng-container *ngIf="!(isSearchBoxEmpty || isNotFound) && !isSearching">
-      <div *ngFor="let book of books">
-        <mat-card class="card">
-          <mat-card-header>
-            <mat-card-title> {{ book.title | titlecase }} </mat-card-title>
-            <mat-card-subtitle>{{ book.author | titlecase }}</mat-card-subtitle>
-          </mat-card-header>
-          <div class="img-container">
-            <img class="img" mat-card-image [attr.src]="book.image" alt="" />
-          </div>
-          <mat-card-content>
-            <p>
-              {{ book.desc }}
-            </p>
-          </mat-card-content>
-          <mat-card-actions>
-            <a mat-button [attr.href]="sanitize(book.path)">
-              READ
-            </a>
-          </mat-card-actions>
-        </mat-card>
-      </div>
+      <mat-card *ngFor="let book of books" class="card">
+        <mat-card-header>
+          <mat-card-title> {{ book.title | titlecase }} </mat-card-title>
+          <mat-card-subtitle>{{ book.author | titlecase }}</mat-card-subtitle>
+        </mat-card-header>
+        <div class="img-container">
+          <img class="img" mat-card-image [attr.src]="book.image" alt="" />
+        </div>
+        <mat-card-content>
+          <p>
+            {{ book.desc }}
+          </p>
+        </mat-card-content>
+        <mat-card-actions>
+          <a mat-button [attr.href]="sanitize(book.path)">
+            READ
+          </a>
+        </mat-card-actions>
+      </mat-card>
     </ng-container>
   </ng-container>
 </div>
