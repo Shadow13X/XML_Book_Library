@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="books.xsl" ?>
+<livre xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./books.xsd">
+   <description>
+      <titre> </titre>
+      <auteurs><auteur>
+         <nom>Agnès </nom>
+         <prenom>Martin-Lugand</prenom>
+      </auteur></auteurs> 
+      <image  xlink:type="simple" xlink:href="https://static.fnac-static.com/multimedia/Images/FR/NR/c6/c2/b1/11649734/1540-1/tsp20200514070156/Nos-resiliences.jpg" >   
+      </image>   
+      <Paragraphe>
+        Notre vie avait-elle irrémédiablement basculé ? Ne serait-elle plus jamais comme avant ? Étrange, cette notion d'avant et d'après. 
+        Je sentais que nous venions de perdre quelque chose d'essentiel. Aucune projection dans l'avenir. 
+        Aucun espoir. Rien. Le vide. Une ombre planait désormais sur notre vie. Et j'avais peur. Mais cette peur, je devais la canaliser, l'étouffer, l'éloigner, je ne pouvais me permettre de me laisser engloutir.
+        Un seul instant suffit-il à faire basculer toute une vie ? 
+      </Paragraphe>
+   </description>
+   <information>
+      <Language> Français</Language>
+      <Genre>Fiction &amp; Literature</Genre>
+      <Publisher> Michel Lafon </Publisher>
+      <Pages> 207 </Pages>
+   </information>
+   <chapitres>
+      <chapitre titre="Chapitre 1">
+         <paragraphes>
+            <paragraphe> 
+            Je me glissai seule dans notre lit pour la dernière fois avant longtemps. 
+            J’aimais l’atmosphère de ces nuits-là. Un mélange d’impatience et de fébrilité. Une excitation à le retrouver. 
+            Une appréhension qu’il vive mal son retour. Un goût d’euphorie qui submerge. Une envie d’accélérer le temps et de le ralentir à la fois, tant cette ultime attente était jouissive après un mois d’absence. 
+            Dans la pénombre de notre chambre, j’avais une perception accrue des bruits de la maison ; le moindre craquement dans la toiture, le chant de la pluie, le moindre petit pas de l’un des enfants se levant avec la bonne excuse d’aller aux toilettes, Monsieur, notre chien, qui ne dormait que d’un œil en grognant dans son panier, Mademoiselle, notre vieille chatte, qui sautait de meuble en meuble.
+            </paragraphe>
+            <paragraphe> 
+            Eux aussi attendaient son retour. Nos esprits à tous étaient tournés vers lui. 
+            Il devait être en route à cette heure-ci. Il roulait vers chez lui, vers chez nous. 
+            J’avais suivi l’atterrissage de son avion en direct sur mon téléphone. Il ne m’avait pas appelée. Il me disait toujours qu’il n’allait pas prendre le risque de me réveiller, alors qu’il rentrait dans quelques heures. 
+            Il s’amusait à croire que je pouvais dormir profondément en attendant son retour. Je ne m’en offusquais pas, il avait besoin de ce temps en tête-à-tête avec lui-même pour se préparer à revenir parmi nous, pour se retrouver, pour se fondre à nouveau dans sa peau de mari et de père. 
+            Non pas qu’il nous oubliât pendant ce voyage, mais il renouait avec celui qu’il était avant d’avoir une famille, du temps où il n’avait ni femme ni enfants.
+            </paragraphe>
+         </paragraphes>
+      </chapitre>
+   </chapitres> 
+</livre>

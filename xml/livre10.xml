@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="books.xsl" ?>
+<livre xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./books.xsd">
+   <description>
+      <titre> L'informateur </titre>
+      <auteurs><auteur>
+         <nom>Grisham</nom>
+         <prenom>John</prenom>
+      </auteur></auteurs> 
+      <image   xlink:type="simple" xlink:href="https://www.babelio.com/couv/CVT_LInformateur_3249.jpg" >   
+      </image>   
+      <Paragraphe>
+          Nous voulons tous que nos juges soient honnêtes et sages. C’est la première de nos attentes. 
+          Leur intégrité, leur impartialité sont les fondements de notre système judiciaire. 
+          Mais que se passe-t-il quand un juge ne respecte pas la loi, quand il se laisse corrompre ? 
+          C’est rare, mais cela arrive.
+      </Paragraphe>
+   </description>
+   <information>
+      <Language> Français</Language>
+      <Genre>Crime &amp; Thrillers</Genre>
+      <Publisher>  JC Lattes</Publisher>
+      <Pages> 520 </Pages>
+   </information>
+   <chapitres>
+      <chapitre titre="Chapitre 1">
+         <paragraphes>
+            <paragraphe> 
+            La radio diffusait du soft jazz. Un compromis. Lacy, la propriétaire de la Prius et donc de l’autoradio, détestait le rap presque autant que Hugo, son passager, détestait la country. 
+            Ils n’avaient pu s’entendre sur rien, même en éliminant d’entrée le bluegrass. Causeries sur le sport, radio publique, vieux morceaux des années 1950, humoristes, BBC, CNN, opéras, ainsi qu’une centaine d’autres stations – rien ne leur convenait à tous les deux. 
+            Ils avaient fini par jeter l’éponge et accepter le jazz d’ascenseur. L’une par lassitude morale, l’autre par lassitude physique. Juste un fond sonore, comme ça Hugo pourrait dormir, et elle ne pas être trop dérangée, parce que le jazz ce n’était vraiment pas son truc. 
+            Encore un petit arrangement. Depuis toutes ces années qu’ils faisaient équipe, chacun avait appris à mettre de l’eau dans son vin. Il dormait, elle conduisait, et tout le monde était content.
+            </paragraphe>
+            <paragraphe>
+            Avant la crise économique, les membres du Board on Judicial Conduct, le service de l’inspection judiciaire, avaient à leur disposition des Honda, des berlines, avec quatre portes, peinture blanche et peu de kilomètres. 
+            Avec les restrictions budgétaires, cette petite flotte avait disparu. Lacy, Hugo, comme d’innombrables agents de la fonction publique en Floride, devaient désormais utiliser leur propre véhicule pour leur travail, dédommagés à vingt-cinq cents le kilomètre. 
+            Hugo, avec quatre enfants et un emprunt pachydermique, avait une Bronco antédiluvienne qui parvenait tout juste à le conduire au bureau. Ils avaient donc pris la Prius de Lacy et Hugo dormait sur le siège côté passager. 
+            </paragraphe>
+         </paragraphes>
+      </chapitre>
+   </chapitres> 
+</livre>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="books.xsl" ?>
+<livre xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./books.xsd">
+   <description>
+      <titre> Le Meilleur des mondes </titre>
+      <auteurs><auteur>
+         <nom>Huxley </nom>
+         <prenom>Aldous </prenom>
+      </auteur></auteurs> 
+      <image   xlink:type="simple" xlink:href="https://static.fnac-static.com/multimedia/Images/FR/NR/db/20/49/4792539/1540-1/tsp20130514171142/Le-meilleur-des-mondes.jpg" >   
+      </image>   
+      <Paragraphe>
+            632 après Ford : désormais on compte les années à partir de l’invention de la voiture à moteur.
+            La technologie et la science ont remplacé la liberté et Dieu.
+      </Paragraphe>
+   </description>
+   <information>
+      <Language> Français</Language>
+      <Genre>Fiction &amp; Fantasy </Genre>
+      <Publisher>  PLon</Publisher>
+      <Pages>  234</Pages>
+   </information>
+   <chapitres>
+      <chapitre titre="Chapitre 1">
+         <paragraphes>
+            <paragraphe> 
+            Un bâtiment gris et trapu de trente-quatre étages seulement. Au-dessus de l’entrée principale, les mots : CENTRE D’INCUBATION ET DE CONDITIONNEMENT DE LONDRES-CENTRAL, et, dans un écusson, la devise de l’État mondial : COMMUNAUTÉ, IDENTITÉ, STABILITÉ.
+            L’énorme pièce du rez-de-chaussée était exposée au nord. En dépit de l’été qui régnait au-delà des vitres, en dépit de toute la chaleur tropicale de la pièce elle-même, ce n’étaient que de maigres rayons d’une lumière crue et froide qui se déversaient par les fenêtres. 
+            Les blouses des travailleurs étaient blanches, leurs mains, gantées de caoutchouc pâle, de teinte cadavérique. La lumière était gelée, morte, fantomatique. Ce n’est qu’aux cylindres jaunes des microscopes qu’elle empruntait un peu de substance riche et vivante, étendue le long des tubes comme du beurre.
+             — Et ceci, dit le Directeur, ouvrant la porte, c’est la Salle de Fécondation.
+            </paragraphe>
+            <paragraphe> 
+            Au moment où le Directeur de l’Incubation et du Conditionnement entra dans la pièce, trois cents Fécondateurs, penchés sur leurs instruments, étaient plongés dans ce silence où l’on ose à peine respirer, dans ce chantonnement ou ce sifflotement inconscient, par quoi se traduit la concentration la plus profonde. 
+            Une bande d’étudiants nouvellement arrivés, très jeunes, roses et imberbes, se pressaient, pénétrés d’une certaine appréhension, voire de quelque humilité, sur les talons du Directeur. 
+            Chacun d’eux portait un cahier de notes, dans lequel, chaque fois que le grand homme parlait, il griffonnait désespérément. Ils puisaient ici leur savoir à la source même. C’était un privilège rare. 
+            Le D.I.C. de Londres-Central s’attachait toujours à faire faire à ses nouveaux étudiants, sous sa conduite-personnelle, le tour des divers services.
+            </paragraphe>
+         </paragraphes>
+      </chapitre>
+   </chapitres> 
+</livre>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="books.xsl" ?>
+<livre xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./books.xsd">
+   <description>
+      <titre> Jeux Dangeureux </titre>
+      <auteurs><auteur>
+         <nom>Steel</nom>
+         <prenom>Danielle</prenom>
+      </auteur></auteurs> 
+      <image   xlink:type="simple" xlink:href="https://www.lisez.com/includes/ajax_imatges.php?id=9782258191693" >   
+      </image>   
+      <Paragraphe>
+          Peu importe les risques. Elle fera tout pour révéler la vérité.
+      </Paragraphe>
+   </description>
+   <information>
+      <Language>Français </Language>
+      <Genre>Romance</Genre>
+      <Publisher> Presses de la Cité </Publisher>
+      <Pages> 242</Pages>
+   </information>
+   <chapitres>
+      <chapitre titre="Chapitre 1">
+         <paragraphes>
+            <paragraphe> 
+            Il était presque 4 heures du matin quand des coups de feu éclatèrent et qu’Alix Phillips courut se mettre à l’abri. 
+            Une fabrique de conserves de fruits avait fermé en Alabama, mettant des milliers de gens sur le carreau. Le syndicat tentait depuis des mois d’empêcher la liquidation de l’entreprise, mais le désespoir et la frustration avaient fini par céder la place à la violence. 
+            La plupart des ouvriers de l’usine étaient afro-américains, et certaines familles travaillaient là depuis plusieurs générations. Toute la nuit, la ville et ses environs avaient été livrés au pillage et à la destruction, et deux jeunes gens avaient été tués. Les unités antiémeute des cités voisines avaient été appelées à la rescousse, et l’odeur âcre du gaz lacrymogène flottait dans l’air. 
+            Alix était en plein reportage en direct. Ben Chapman, son caméraman, l’attrapa brutalement par le bras pour l’obliger à partir, la forçant à abandonner son poste. Il dut presque la traîner pour la sortir de là. Les forces armées s’approchaient de la zone, et les fenêtres d’un bâtiment incendié par les pillards explosaient sous l’effet de la chaleur. 
+            Alix venait juste d’annoncer sur une chaîne nationale qu’on n’avait rien vu de tel depuis les émeutes de Los Angeles en 1992.
+            </paragraphe>
+            <paragraphe> 
+            — T’es complètement folle ou quoi ? cria Chapman, furieux, quand ils se réfugièrent derrière un bâtiment au bout de la rue.
+            Des membres de la garde nationale et de la police anti-émeute passèrent près d’eux dans un bruit de tonnerre. Cela faisait une semaine que Ben et Alix se trouvaient sur les lieux. Alix, sa carte de presse autour du cou, avait le visage couvert de suie, et les yeux irrités par l’épais nuage de lacrymo.
+            — T’as vraiment envie de te prendre une balle ?
+            </paragraphe>
+         </paragraphes>
+      </chapitre>
+   </chapitres> 
+</livre>
