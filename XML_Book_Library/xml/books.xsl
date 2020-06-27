@@ -25,10 +25,21 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
                 .container{
                     margin:20px 10%;
                 }
+                a{
+                    color:black;
+                    text-decoration:none;
+                    font-weight:500;
+                }
+                a:hover{
+                    color:rgb(133, 211, 88);
+                }
             </style>
         </head>
-        <body class="mat-typography"> 
+        <body class="mat-typography">
             <div class="container">
+            <div style="display:block">
+                <a href="../"> HOME </a>
+            </div> 
             <h1 style="
                 text-align:center;
                 font-size: 40px !important;
